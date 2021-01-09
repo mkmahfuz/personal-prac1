@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dropdown</title>
+</head>
+<style>
+    div{
+        position: relative;
+    }
+    p{
+        display:none;
+        position: absolute;
+        background-color: green;
+    }
+    h2:hover+p{
+        display: block;
+        background-color: gray;
+
+    }
+</style>
+<body>
+    <div>
+        <h2>DorpdownText</h2>
+        <p>Option1</p>
+        <p>Option2</p>
+    </div>
+</body>
+</html>
